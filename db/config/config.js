@@ -11,6 +11,8 @@ module.exports = {
       useCreateIndex: true,
       useNewUrlParser: true,
       useUnifiedTopology: true,
+      bufferCommands: false,
+      bufferTimeoutMS: 5000,
     },
   },
 };
