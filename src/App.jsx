@@ -5,8 +5,7 @@ import Login from './components/Login';
 import HomePage from './components/HomePage';
 
 const config = {
-  // url: "http://localhost:8082"
-  url: "https://earthpedia.onrender.com"
+  url: "http://localhost:8082"
 }
 
 export { config };
