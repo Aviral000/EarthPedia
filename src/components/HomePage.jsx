@@ -1,11 +1,10 @@
 import './HomePage.css';
-import Header from './Header';
-
+import { Link } from 'react-router-dom';
 
 export default function HomePage() {
   return (
     <div>
-      <Header />
+      <button><Link to='/post-maker'>Create a post</Link></button>
     </div>
   );
 }
