@@ -74,3 +74,7 @@ nav {
       transform: scale(1);
     }
   }
+
+  .dropdown :hover {
+    cursor: pointer;
+  }
